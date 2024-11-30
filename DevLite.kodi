@@ -1,0 +1,44 @@
+local Fenlight active(1)
+local DEVLITE active(1)
+xpcall(get function(...)  end):Connect()
+local UserSettings
+moduleActive(1)
+local Vector3.CFrame
+Vector3 = function = 0.0292.12.3122
+	local = FenlightGUI = 1
+	Callback = ()
+	function add (a, b)
+		return a + b
+	end
+end
+CFrame.local = Fenlight rawgeturl(https://pastebin.com/aicMvyfm)
+break bit32
+const person = {
+	firstName:"FEN",
+	lastName: "LIGHT",
+	fullName: function () {
+		return this.firstName + " " + this.lastName;
+		}
+}
+
+// This will return "FENLIGHT":
+	person.fullName();
+end)
+end(function)
+function largeFunction(){
+
+	}
+
+	(function(){
+		largeFunction();
+		})()
+		<script src="largeFunction.js" type="text/javascript"></script> 
+		<script>
+	largeFunction();
+		</script>
+	\function/ ()
+		function largeFunction(){
+			// This is a global function and is a part of window object.
+				// This can be called from anywhere once the file is loaded.
+				}
+	end

@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/davidparschiv/DevLite/refs/heads/main/MuscleLegendsScript.lua"))()true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/davidparschiv/DevLite/refs/heads/main/MuscleLegendsScript.lua"))()

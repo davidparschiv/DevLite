@@ -1,0 +1,8 @@
+--[[
+	Code generated using github.com/Herrtt/luamin.js
+	An open source Lua beautifier and minifier.
+--]]
+
+
+
+local a=loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()local a=a:MakeWindow({Name="Muscle Legends",HidePremium=false,SaveConfig=true,ConfigFolder="OrionTest"})local b=a:MakeTab({Name="Speed",Icon="rbxassetid://4483345998",PremiumOnly=false})b:AddButton({Name="Speed Normal",Callback=function()_G.WS="16"local a=game:GetService("Players").LocalPlayer.Character.Humanoid;a:GetPropertyChangedSignal("WalkSpeed"):Connect(function()a.WalkSpeed=_G.WS end)a.WalkSpeed=_G.WS end})b:AddButton({Name="Speed 100",Callback=function()_G.WS="100"local a=game:GetService("Players").LocalPlayer.Character.Humanoid;a:GetPropertyChangedSignal("WalkSpeed"):Connect(function()a.WalkSpeed=_G.WS end)a.WalkSpeed=_G.WS end})local a=a:MakeTab({Name="JumpPower",Icon="rbxassetid://4483345998",PremiumOnly=false})a:AddToggle({Name="infinite Jumps",Default=false,Callback=function(a)local a=game:GetService'Players'.LocalPlayer;local b=game:GetService'UserInputService'_G.JumpHeight=50;function Action(a,b)if a~=nil then b(a)end end;b.InputBegan:connect(function(b)if b.UserInputType==Enum.UserInputType.Keyboard and b.KeyCode==Enum.KeyCode.Space then Action(a.Character.Humanoid,function(a)if a:GetState()==Enum.HumanoidStateType.Jumping or a:GetState()==Enum.HumanoidStateType.Freefall then Action(a.Parent.HumanoidRootPart,function(a)a.Velocity=Vector3.new(0,_G.JumpHeight,0)end)end end)end end)end})
